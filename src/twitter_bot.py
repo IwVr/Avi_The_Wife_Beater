@@ -1,4 +1,6 @@
 import tweepy
+import os
+import re
 from src.config import consumer_key, consumer_secret, access_token, access_token_secret
 from src.database i mport save_reply, has_replied
 import random

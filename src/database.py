@@ -1,4 +1,5 @@
 import sqlite3
+import re
 
 def init_db():
     conn = sqlite3.connect('tweets.db')
